@@ -1,0 +1,46 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.formConversion {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+}
+
+.formConversion .form-label,
+.formConversion .btn {
+    color: #ffffff;
+}
+
+.formConversion .btn-primary {
+    background-color: #6200ea;
+    border-color: #6200ea;
+}
+
+.formConversion .btn-primary:hover {
+    background-color: #3700b3;
+    border-color: #3700b3;
+}
+
+.formConversion .inputFile {
+    background-color: #333;
+    color: #ffffff;
+    border: 1px solid #444;
+}
+
+.formConversion .inputFile::file-selector-button {
+    background-color: #6200ea;
+    color: #ffffff;
+    border: none;
+}
+
+.formConversion .inputFile::file-selector-button:hover {
+    background-color: #3700b3;
+}
+
+@media screen and (max-width: 768px) {
+    .formConversion {
+        max-width: 80%;
+    }
+}
