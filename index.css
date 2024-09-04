@@ -1,6 +1,6 @@
 body {
     background-color: #121212;
-    color: #ffffff;
+    color: #e0e0e0;
 }
 
 .formConversion {
@@ -10,7 +10,7 @@ body {
 
 .formConversion .form-label,
 .formConversion .btn {
-    color: #ffffff;
+    color: #e0e0e0;
 }
 
 .formConversion .btn-primary {
@@ -25,18 +25,24 @@ body {
 
 .formConversion .inputFile {
     background-color: #333;
-    color: #ffffff;
+    color: #e0e0e0;
     border: 1px solid #444;
 }
 
 .formConversion .inputFile::file-selector-button {
     background-color: #6200ea;
-    color: #ffffff;
+    color: #e0e0e0;
     border: none;
 }
 
 .formConversion .inputFile::file-selector-button:hover {
     background-color: #3700b3;
+}
+
+.table-container {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
 }
 
 @media screen and (max-width: 768px) {
